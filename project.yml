@@ -1,0 +1,21 @@
+name: Liner
+options:
+  bundleIdPrefix: com.personal.liner
+  deploymentTarget:
+    iOS: "16.0"
+
+targets:
+  Liner:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: LinerApp
+    settings:
+      PRODUCT_NAME: Liner
+      PRODUCT_BUNDLE_IDENTIFIER: com.personal.liner.app
+      INFOPLIST_FILE: LinerApp/Info.plist
+      TARGETED_DEVICE_FAMILY: "1"
+      SWIFT_VERSION: "5.9"
+      DEVELOPMENT_TEAM: ""
+      CODE_SIGN_STYLE: Manual
